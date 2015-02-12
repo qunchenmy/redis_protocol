@@ -36,7 +36,9 @@ I had used it in my `redis_proxy <https://github.com/youngking/redis_proxy>`_ pr
 Parse redis protocol stream  
 ------
 Parse redis protocol stream to redis commands，such as redis pipeline requests or raw responses.
+
 redis protocol stream is the RESP serialization format data.
+
 redis RESP : `http://redis.io/topics/protocol`
 
 example :
