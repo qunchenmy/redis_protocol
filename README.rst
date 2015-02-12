@@ -33,9 +33,11 @@ I had used it in my `redis_proxy <https://github.com/youngking/redis_proxy>`_ pr
     ... "foobar"
 
 
-parse redis protocol stream  
+Parse redis protocol stream  
 ------
-parse redis protocol stream to redis commands，such as redis pipeline requests or raw responses.
+Parse redis protocol stream to redis commands，such as redis pipeline requests or raw responses.
+redis protocol stream is the RESP serialization format data.
+redis RESP : `http://redis.io/topics/protocol`
 
 example :
 -----------
